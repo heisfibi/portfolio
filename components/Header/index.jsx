@@ -7,7 +7,7 @@ export const Header = () =>
     <>
     
         <div className='static'>
-            <div className='flex flex-row justify-between items-center px-20 w-full h-28 bg-almost-black-500'>
+            <div className='fixed flex flex-row justify-between items-center px-20 w-full h-28 bg-almost-black-500'>
                 <img className='w-20 h-20 rounded-full' src={icon}/>
                 <div className='flex flex-row justify-evenly items-center gap-20'>
                     <a href='.'>
