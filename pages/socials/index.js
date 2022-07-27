@@ -4,7 +4,7 @@ export default function Home ()
 
         <>
         
-            <h1 className='w-full h-full bg-white'>This is the Socials page!</h1>
+            <h1 className='w-full h-full'>This is the Socials page!</h1>
         
         </>
 
