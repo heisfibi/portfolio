@@ -1,5 +1,9 @@
 import { InfoCard } from '../components/InfoCard';
 
+/*
+  Emojis: https://emoji.craftwork.design/
+*/
+
 export default function Home() 
 {
   return (
