@@ -31,6 +31,7 @@ module.exports = {
       colors: {
       transparent: 'transparent',
       current: 'currentColor',
+      'almost-black': '#1D1B26',
       'white': '#ffffff',
       'gray':{
         100:'#E4E5E6',
@@ -52,12 +53,11 @@ module.exports = {
       },
       'linkblue':{
         100:"#006DD0",
-      },
-      'almost-black':'#1D1B26'
+      }
 
     },},
   },
   plugins: [
-    require('tailwind-scrollbar-hide')
+    
   ]
 }
