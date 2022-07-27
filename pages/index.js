@@ -23,6 +23,17 @@ export default function Home()
           image='https://emoji.craftwork.design/images/modal/thinking-face.png'
         />
       </div>
+
+      <div className='flex flex-row justify-center text-gold text-8xl font-bold pb-20'>
+        <h1 className='text-almost-black-500 text-8xl font-bold'>“</h1><h1>Hi. I'm Aidan 👋</h1><h1 className='text-almost-black-500 text-8xl font-bold'>”</h1>
+      </div>
+
+      <div className='w-full h-[35em] bg-almost-black-500'>
+        <div className='flex flex-row justify-center items-center gap-16'>
+          <h1 className='text-white text-4xl font-semibold py-16'>Featured Projects</h1>
+          <div className='bg-white w-3/4 h-1.5 pr-16'></div>
+        </div>
+      </div>
     </>
 
   )
