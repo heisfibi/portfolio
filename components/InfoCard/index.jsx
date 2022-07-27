@@ -1,20 +1,16 @@
 import React from 'react';
 
-export const InfoCard = ({ }) =>
+export const InfoCard = ({ title, description, image }) =>
 (
     <>
     
         <div className='flex flex-row items-center w-2/3 h-[20em] bg-almost-black-500 rounded-2xl drop-shadow-md transition-all duration-300 hover:-translate-y-5 hover:drop-shadow-2xl'>
             <img className='rounded-l-2xl h-full' src='https://i.ibb.co/6mGbqWv/122426423-2630232447290059-1245205322917720626-n.jpg'/>
             <div className='flex flex-col p-10 gap-7'>
-                <h1 className='text-4xl font-semibold'>Who is this?</h1>
-                <p className='text-xl'>
-                    Hi! My name is <span className='text-yellow-300 text-2xl font-bold'>Aidan Ouckama</span> and I'm a upcoming Computer Science student and front-end developer.
-                    I have touched many corners within the programming world including Web Design, Game Development, Database Building,
-                    Modding, and more! I've had a passion for coding from a young age and I'm excited to continuing pursuing it! 
-                </p>
+                <h1 className='text-4xl font-semibold'>{title}</h1>
+                <p className='text-xl'>{description}</p>
             </div>
-            <img className='w-1/2 h-1/2 pr-14' src='https://emoji.craftwork.design/images/modal/thinking-face.png'/>
+            <img className='w-1/2 h-1/2 pr-14' src={image}/>
         </div>
     
     </>

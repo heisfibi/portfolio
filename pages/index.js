@@ -18,7 +18,9 @@ export default function Home()
 
       <div className='flex justify-center py-16'>
         <InfoCard 
-
+          title="Who is this?"
+          description="Hi! My name is Aidan Ouckama and I'm a upcoming Computer Science student and front-end developer. I have touched many corners within the programming world including Web Design, Game Development, Database Building, Modding, and more! I've had a passion for coding from a young age and I'm excited to continuing pursuing it!"
+          image='https://emoji.craftwork.design/images/modal/thinking-face.png'
         />
       </div>
     </>
