@@ -27,7 +27,7 @@ export default function Home()
       </div>
 
       <div className='flex flex-row justify-center text-gold text-7xl font-bold pb-20'>
-        <h1 className='text-almost-black-500 text-8xl font-bold'>“</h1><h1>Hi. I'm Aidan 👋</h1><h1 className='text-almost-black-500 text-8xl font-bold'>”</h1>
+        <h1 className='text-almost-black-500 text-8xl font-bold'>“</h1><h1>Hi. I{"'"}m Aidan 👋</h1><h1 className='text-almost-black-500 text-8xl font-bold'>”</h1>
       </div>
 
       <div className='w-full h-[70em] bg-almost-black-500'>
