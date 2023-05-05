@@ -8,8 +8,8 @@ export const Header = () =>
 (
     <>
     
-        <div className='static bg-almost-black-500 h-28'>
-            <div className='fixed flex flex-row justify-between items-center px-20 w-full p-5'>
+        <div className='bg-almost-black-500 h-28'>
+            <div className='flex flex-row justify-between items-center px-20 w-full p-5'>
                 <img className='w-20 h-20 rounded-full' src={icon}/>
                 <div className='flex flex-row justify-evenly items-center gap-20'>
                     
