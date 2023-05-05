@@ -9,13 +9,14 @@ export const Header = () =>
     <>
     
         <div className='bg-almost-black-500 h-28'>
-            <div className='flex flex-row justify-between items-center px-20 w-full p-5'>
-                <img className='w-20 h-20 rounded-full' src={icon}/>
+            <div className='flex flex-row justify-evenly items-center px-20 w-full p-5'>
+                <img className='lg:w-20 w-0 h-20 rounded-full' src={icon}/>
                 <div className='flex flex-row justify-evenly items-center gap-20'>
                     
                     <NavLink text='Home' link='.'/>
                     <NavLink text='About' link='/about'/>
                     <NavLink text='Socials' link='/socials'/>
+                    <NavLink text='Projects' link='/projects'/>
 
                 </div>
                 <div className='w-20'/>
