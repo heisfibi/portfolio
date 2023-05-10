@@ -15,8 +15,8 @@ export const Header = () =>
                     
                     <NavLink text='Home' link='.'/>
                     <NavLink text='About' link='/about'/>
-                    <NavLink text='Socials' link='/socials'/>
                     <NavLink text='Projects' link='/projects'/>
+                    <NavLink text='Socials' link='/socials'/>
 
                 </div>
                 <div className='w-20'/>
