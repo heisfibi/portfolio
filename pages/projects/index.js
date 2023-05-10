@@ -22,9 +22,11 @@ export default function Projects()
 
                 <div className='grid 2xl:grid-cols-3 xl:grid-cols-2 grid-cols-1 gap-10 justify-evenly px-20'>
                     <ProjectCard 
-                        title="Stevens '26 Student Portfolio Website"
-                        description="Working as Project Manager of a student portfolio website a group of my classmates are working on. It's my first time working with others on a large project so I'm learning a lot!"
+                        title="Tic Tac Toe"
+                        description="A fully working tic tac toe board built with React!"
                         image="https://web.stevens.edu/news/newspoints/zoom-bg/Stevens-zoom-background-garden.jpg"
+                        date="May 5th, 2023"
+                        link='tictactoe'
                     />
                 </div>
             </div>
