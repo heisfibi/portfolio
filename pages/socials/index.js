@@ -35,7 +35,7 @@ export default function Home ()
                     title="Discord"
                     description="Come join our amazing community and chat with them! Lots of Computer Science in these parts."
                     image='https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png'
-                    link='https://discord.com/invite/cZsJmkr'
+                    link='https://discord.gg/acbpxq8rvY'
                 />
             </div>
         
