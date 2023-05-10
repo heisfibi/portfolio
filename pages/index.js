@@ -1,5 +1,4 @@
 import { InfoCard } from '../components/InfoCard';
-import { ProjectCard } from '../components/ProjectCard';
 
 /*
   Emojis: https://emoji.craftwork.design/
@@ -10,6 +9,8 @@ export default function Home()
   return (
     
     <>
+    
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
 
       <div className='w-full h-[35em] object-fill bg-fixed bg-[url("https://i.ibb.co/wQT8tCg/122427480-161210105663948-3594706252189084805-n.jpg")]'>
         <div className='flex flex-col justify-center items-center w-full h-full backdrop-blur-sm backdrop-brightness-50'>
@@ -29,6 +30,7 @@ export default function Home()
       <div className='flex flex-row justify-center text-white text-7xl font-bold pb-20'>
         <h1 className='text-almost-black-500 text-8xl font-bold'>“</h1><h1>Hi. I{"'"}m <span className="text-gold">Aidan</span> 👋</h1><h1 className='text-almost-black-500 text-8xl font-bold'>”</h1>
       </div>
+
     </>
 
   )
