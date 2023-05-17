@@ -18,7 +18,7 @@ export default function Home ()
                     <div className='bg-white w-1/3 sm:w-1/2 h-1.5 px-16'></div>
                     <h1 className='text-white text-base sm:text-2xl lg:text-3xl font-bold'>Follow Us</h1>
                 </div>
-                <div className='grid sm:grid-cols-2 gap-6 sm:gap-9 sm:px-0 justify-evenly w-full'>
+                <div className='grid sm:grid-cols-2 gap-6 md:gap-9 sm:px-0 justify-evenly w-full'>
                     <SocialCard 
                         title="TikTok"
                         description="Come see my TikTok full of interesting and entertaining Computer Science content!"
