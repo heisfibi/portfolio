@@ -17,14 +17,14 @@ export default function Projects()
                     <div className='bg-white w-1/3 sm:w-1/2 h-1.5 px-16'></div>
                     <h1 className='text-white text-base sm:text-2xl lg:text-3xl font-bold'>Featured Projects</h1>
                 </div>
-                <div className='grid 2xl:grid-cols-3 xl:grid-cols-2 grid-cols-1 sm:px-0 gap-6 sm:gap-9 justify-evenly'> 
+                <div className='grid 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 sm:px-0 gap-6 md:gap-9 justify-evenly'> 
                     <ProjectCard 
                         title="Tic Tac Toe"
                         description="A fully working tic tac toe board built with React!"
                         image="https://web.stevens.edu/news/newspoints/zoom-bg/Stevens-zoom-background-garden.jpg"
                         date="May 5th, 2023"
                         link='tictactoe'
-                    /> 
+                    />
                 </div>
             </Container> 
         </>
